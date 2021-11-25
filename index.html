@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aliens VS Balloons</title>
+</head>
+<body style="margin: 0; padding: 0;">
+    <div style="font-family: Fontdiner Swanky; position:absolute; left:-1000px; visibility:hidden;">.</div>
+
+    <div id="gameContainer" 
+    style=
+    "display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background-color: whitesmoke;
+    ">
+    </div>
+</body>
+<style media='screen' type='text/css'>
+    @font-face {
+      font-family: Fontdiner Swanky;
+      src: url('./src/fonts/FontdinerSwanky-Regular.ttf');
+    };
+    #gameContainer > div{
+        border: 5px solid black;
+        z-index: 1000;
+    }
+    canvas {
+        border-radius: 10px;
+        border: 5px solid black;
+        z-index: 1000;
+    };
+</style>
+<script src="./node_modules/phaser/dist/phaser.js"></script>
+<script src="./gameController.js" type="module"></script>
+<script src="./Scenes/scenePlayGame.js" type="module"></script>
+<script src="./Scenes/scenes.js" type="module"></script>
+<script src="./Classes/gVariables.js"></script>
+<script src="./Classes/ufo.js"></script>
+</html>
