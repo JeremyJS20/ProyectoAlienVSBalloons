@@ -4,12 +4,14 @@
   "description": "",
   "main": "gameController.js",
   "scripts": {
+    "start": "node App",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.17.2",
     "phaser": "^3.53.1"
   }
 }
