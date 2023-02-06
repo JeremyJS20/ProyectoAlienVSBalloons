@@ -1,5 +1,4 @@
 var vGlobales = new gVariables();
-const Phaser = require('phaser');
 
 /**
  * 13. Esta versión del juego solo debe tener un nivel
