@@ -1,5 +1,5 @@
 var vGlobales = new gVariables();
-import Phaser from "phaser";
+import Phaser from "../node_modules/phaser/dist/phaser";
 
 /**
  * 13. Esta versión del juego solo debe tener un nivel
