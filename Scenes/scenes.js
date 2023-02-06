@@ -10,7 +10,7 @@ var explosion_nave = new Audio('audio/explosion_nave.mp3');
 var win_street_fighter = new Audio('audio/street-fighter you win.mp3');
 var victory_sonic = new Audio('audio/victory-sonic.mp3');
 var executed;
-
+import Phaser from "../node_modules/phaser/dist/phaser.js";
 
 //Escenas o vistas del juego
 
